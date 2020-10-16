@@ -4,6 +4,7 @@ using namespace std;
 
 // UNASSIGNED is used for empty cells in sudoku grid
 #define UNASSIGNED 0
+#define get(a,b) a##b
 
 // N is used for the size of Sudoku grid.
 // Size will be NxN
@@ -160,7 +161,7 @@ int main()
 					{ 1, 0, 0, 2, 3, 5, 6, 0, 3}};
 					*/
 
-    cout<<"-----------SUDOKU SOLVER------------------"<<endl;
+    cout<<"---------------------------------------SUDOKU SOLVER--------------------------------------------"<<endl;
 
 	int grid[N][N];
 	cout<<"Enter the Problem grid"<<endl;
